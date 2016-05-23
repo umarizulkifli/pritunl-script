@@ -35,4 +35,3 @@ for value in data:
 	if value['type'] == type and value['email'] == email:
 		response = auth_request('GET','/key/54c079837fa0572d1ed6946d/'+ value['id'],)
 		resp = response.json()
-		print ('https://freedom.globaltransit.net:9700'+ resp['view_url'])

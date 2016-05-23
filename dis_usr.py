@@ -1,6 +1,6 @@
 import  sys, json, requests, time, uuid, hmac, hashlib, base64
 BASE_URL = 'https://localhost:9700'
-API_TOKEN = 'LIKUuWpU4BBU3ax52CxXB9iwezRcLG1m'
+API_TOKEN = 'LIKUuWpU4BBU3ax52CxXB9iwezRcLG1m' 
 API_SECRET = 'AtzpTcEeFdVqRRDiMIrqrsinFv20NrWu'
 
 def auth_request(method, path, headers=None, data=None):
